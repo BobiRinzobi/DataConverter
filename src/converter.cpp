@@ -13,7 +13,7 @@
 
 namespace dataconv {
 namespace {
-
+//проверка связи
 using json = nlohmann::json;
 
 std::string lower(std::string s) {
