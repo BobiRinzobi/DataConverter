@@ -39,7 +39,7 @@ jobs:
         run: cmake --build build --config Debug --parallel 2
 
       - name: Run tests and generate report
-        run: ctest --test-dir build -C Debug --output-on-failure --output-junit build/test-results.xml
+        run: ctest --test-dir build -C Debug --output-on-failure --output-junit test-results.xml
 
 
       - name: Upload test report
